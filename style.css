@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    font: sans-serif;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-left: auto;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button1,
+.button2 {
+   background-color: teal;
+   border-radius: 7px;
+   padding: 5px 25px;
+   font-size: 20px;
+   color: black;
+   border: 2px solid white;
+}
+
+.header {
+    background-color: rgb(64, 15, 71);
+    margin: auto;
+    color: white;
+    padding: 0px 200px 100px 200px;
+}
+
+.topheader {
+    display: flex;
+    font-size: 14px;
+    margin-bottom: 100px;
+}
+
+.subheader {
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 50vw;
+    gap: 10px;
+}
+
+.left > h1 {
+    font-size: 50px;
+    margin: 0;
+}
+
+.left > p {
+    font-size: 20px;
+    margin: 0;
+}
+
+.right {
+    background-color: gray;
+    width: 50vw;
+    text-align: center;
+}
+
+.abvran {
+    text-align: center;
+    margin: 50px;
+}
+
+.random {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 100px;
+}
+
+.bigcard {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bigcard > p {
+    flex-wrap: wrap;
+    font-size: 20px;
+    max-width: 200px;
+    text-align: center;
+    margin: 5px;
+}
+
+.card {
+    border: 5px solid purple;
+    border-radius: 7px;
+    width: 200px;
+    height: 200px;
+}
+
+.quote {
+    background-color: lightgray;
+    font-size: 42px;
+    padding: 150px 300px;
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+
+.quote > p > span {
+    display: flex;
+    justify-content: flex-end;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.signup {
+    display: flex;
+    margin: 100px 200px;
+    border-radius: 7px;
+    background-color: teal;
+    padding: 50px 100px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+}
+
+.action > h1,
+.action > p {
+    margin: 0;
+}
+
+.action > h1 {
+    font-size: 30px;
+}
+
+.action > p {
+    font-size: 20px;
+}
+.buttcont {
+    display: flex;
+    align-items: flex-end;
+    margin-left: auto;
+}
+
+.footer {
+    background-color: rgb(64, 15, 71);
+    color: white;
+    font-size: 10px;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
